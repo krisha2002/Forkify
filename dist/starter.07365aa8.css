@@ -487,7 +487,6 @@ body {
 
 .search-results {
   flex-direction: column;
-  padding: 3rem 0;
   display: flex;
 }
 
@@ -524,6 +523,45 @@ body {
 
 .copyright .twitter-link:link, .copyright .twitter-link:visited {
   color: #918581;
+}
+
+.preview__name:any-link {
+  text-decoration: none;
+}
+
+p.preview__publisher {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  display: block;
+}
+
+.preview__name {
+  text-transform: uppercase;
+  color: #f59a83;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  margin-top: -1rem;
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+  display: block;
+  overflow: hidden;
+}
+
+.preview__data {
+  grid-template-columns: none;
+}
+
+p.copyright {
+  margin-bottom: 3rem;
+}
+
+.copyright {
+  margin-top: 4rem;
+}
+
+.preview__link:link, .preview__link:visited {
+  padding: 2.5rem 3.25rem;
 }
 
 .recipe {
@@ -686,6 +724,10 @@ body {
 
 .recipe__publisher {
   font-weight: 700;
+}
+
+.recipe_ingredients {
+  padding: 10rem 8rem;
 }
 
 .add-recipe-window {
