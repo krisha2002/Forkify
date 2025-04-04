@@ -77,7 +77,7 @@ export default class View {
     });
   }
 
-  renderMessage(message = this._errorMessage) {
+  renderMessage(message = this._message) {
     const markup = `<div class="message">
                 <div>
                   <svg>
