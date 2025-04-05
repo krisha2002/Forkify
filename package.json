@@ -4,7 +4,7 @@
 	"description": "Recipe Application",
 	"scripts": {
 		"start": "parcel ./starter/index.html",
-		"build": "parcel build ./starter/index.html"
+		"build": "parcel build ./starter/index.html --dist-dir ./dist"
 	},
 	"author": "Krisha Shah",
 	"license": "ISC",
